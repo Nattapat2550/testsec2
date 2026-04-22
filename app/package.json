@@ -1,0 +1,17 @@
+{
+  "name": "workshop-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docker workshop sample app: Express + Postgres",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
